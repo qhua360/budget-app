@@ -17,4 +17,9 @@ public class home extends AppCompatActivity {
         Intent intent = new Intent(this, expenses.class);
         startActivity(intent);
     }
+
+    public void income(View view) {
+        Intent intent = new Intent(this, income.class);
+        startActivity(intent);
+    }
 }
