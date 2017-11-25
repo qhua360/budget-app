@@ -9,110 +9,125 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="228dp"
-        android:layout_height="79dp"
-        android:layout_marginBottom="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="29dp"
         android:text="Expenses"
         android:textSize="50sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView11"
-        tools:layout_editor_absoluteX="85dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="98dp"
-        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="36dp"
         android:text="Monthly:"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="132dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="67dp"
         android:text="Food"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="231dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="Living"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="364dp" />
+        app:layout_constraintStart_toStartOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="21dp"
         android:text="Education"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="300dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
         android:text="Entertainment"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="432dp" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="180dp"
-        android:layout_height="44dp"
-        android:textAlignment="textEnd"
-        android:textSize="30sp"
-        app:layout_constraintHorizontal_bias="0.93"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="132dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <TextView
         android:id="@+id/textView16"
-        android:layout_width="22dp"
-        android:layout_height="44dp"
-        android:text="$"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="36dp"
+        android:text="$3650"
         android:textAlignment="textEnd"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="132dp" />
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="122dp"
-        android:layout_height="38dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="99dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginTop="99dp"
         android:text="$1200"
         android:textAlignment="textEnd"
-        tools:layout_editor_absoluteX="246dp"
-        tools:layout_editor_absoluteY="241dp" />
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView16" />
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="122dp"
-        android:layout_height="38dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="31dp"
+        android:layout_marginTop="35dp"
         android:text="$2000"
         android:textAlignment="textEnd"
-        tools:layout_editor_absoluteX="246dp"
-        tools:layout_editor_absoluteY="310dp" />
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="122dp"
-        android:layout_height="38dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="34dp"
+        android:layout_marginTop="34dp"
         android:text="$650"
         android:textAlignment="textEnd"
-        tools:layout_editor_absoluteX="246dp"
-        tools:layout_editor_absoluteY="442dp" />
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="122dp"
-        android:layout_height="38dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="34dp"
+        android:layout_marginTop="30dp"
         android:text="$800"
         android:textAlignment="textEnd"
-        tools:layout_editor_absoluteX="246dp"
-        tools:layout_editor_absoluteY="374dp" />
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
 </android.support.constraint.ConstraintLayout>
