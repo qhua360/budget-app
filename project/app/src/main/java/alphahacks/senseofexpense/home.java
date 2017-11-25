@@ -22,4 +22,5 @@ public class home extends AppCompatActivity {
         Intent intent = new Intent(this, income.class);
         startActivity(intent);
     }
+
 }
